@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu { /*==== MENU DE NAVEGAÇÃO ====*/
+    background-color: #0F172A;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu ul { /*==== UL DO MENU DE NAVEGAÇÃO ====*/
+    list-style: none;
+    text-align: center;
+
+    padding: 0;
+    margin: 30px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.menu a { /*==== LINK DO MENU DE NAVEGAÇÃO ====*/
+    text-decoration: none;
+}
+
+main { /*==== CONTEÚDO PRINCIPAL ====*/
+    margin-left: 280px;
+    padding: 60px;
+}
+
+
+.textoMenu { /*==== TEXTO DO MENU DE NAVEGAÇÃO ====*/
+    font-family: Impact, sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.profile{ /*==== FOTO PERFIL ====*/
+    margin-top: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 4px solid #60a5fa;
+    padding: 4px;
+    background-color: #0F172A;
+    
+}
+
+body{ /*==== CORPO HTML ====*/
+    background-color: #F8FAFC;
+}
+
+
+
+h1 { /*==== TITULOS H1 ====*/
+    font-size: 72px;
+    margin: 0 0 30px 0;
+    font-family: Impact, sans-serif;
+    color: #0F172A 
+}
+
+h3 { /*==== TITULOS H3 ====*/
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #60a5fa;
+    
+}
+
+h4 { /*==== TITULOS H4 ====*/
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F172A;
+}
+
+h5 { /*==== TITULOS H5 ====*/
+    
+    font-size: 20px;
+    color: #1e293b;
+
+}
+
+p { /*==== PARAGRAFOS ====*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1e293b;
+}
+
+.menu a:hover { /*==== ESTILO APLICADO NO LINK DO MENU AO PASSAR O MOUSE ====*/
+    background-color: #1e293b;
+    color: #60a5fa;
+}
+
+section { /*==== TODAS AS SEÇÕES ====*/
+    min-height: 100vh;
+    padding: 40px;
+}
+
+section a {  /*==== LINK DA SEÇÃO ====*/
+    display: block;
+}
+
+.icone { /*==== ICONES REE SOCIAL ====*/
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+.pSobre { /*==== PARAGRAFO DO SOBRE ====*/
+    margin-top: 50px;
+}
+
+
+
+.skill-box { /*==== CLASSE DA SKILLS ====*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.skill-box { /*==== CLASSE DA SKILLS ====*/
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+/*=== INICIO DA EDUCAÇÃO === */
+.span {
+    font-family: Arial Narrow, sans-serif;
+}
+
+.educacion { /*==== CLASSE DA EDUCAÇÃO ====*/
+    margin-bottom: 25px;
+}
+
+.educacion h4 {
+    margin-bottom: 15px;
+}
+
+.educacion h5 {
+    margin-bottom: 13px;
+}
+
+.educacion span {
+    margin: 0;
+}
+/*=== FIM DA EDUCAÇÃO === */
+
+.vazio {
+    color: transparent;
+}
